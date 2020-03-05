@@ -1,0 +1,59 @@
+
+header,main,footer,section,h1{
+    text-align: center;
+}
+
+html,body{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.students{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section.form{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+
+}
+
+header, .form, main{
+    margin-bottom: 70px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+form input, form button, form input{
+    width: 100%;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    padding-top: 7px;
+    padding-right: 18px;
+    padding-bottom: 7px;
+    padding-left: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1.49px #3366FF solid;
+    background-color:#f9f9f9;
+    color:black;
+}
+
+footer{
+    margin-top: auto;
+}
+
+
